@@ -8,8 +8,8 @@ Rp = float(input("Enter Rp: "))
 Rf = float(input("Enter Rf: "))
 σp = float(input("Enter σp: "))
 
-def sharpe_ratio(Rp, Rf, σp):
-    ratio = (Rp - Rf) / σp
-    return(ratio)
+def calc_sharpe_ratio(Rp, Rf, σp):
+    sharpe_ratio = (Rp - Rf) / σp
+    return(sharpe_ratio)
 
-print(sharpe_ratio(Rp, Rf, σp))
+print(calc_sharpe_ratio(Rp, Rf, σp))
