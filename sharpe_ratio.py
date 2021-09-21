@@ -12,4 +12,4 @@ def calc_sharpe_ratio(Rp, Rf, σp):
     sharpe_ratio = (Rp - Rf) / σp
     return(sharpe_ratio)
 
-print(calc_sharpe_ratio(Rp, Rf, σp))
+print('Sharpe ratio is ' + str(calc_sharpe_ratio(Rp, Rf, σp)))

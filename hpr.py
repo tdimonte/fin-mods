@@ -15,5 +15,5 @@ def calc_hpr(div_yeild, init_val, end_val):
     hpr = str((hpr*100)) + '%'
     return(hpr)
 
-print(calc_hpr(div_yeild, init_val, end_val))
+print('HPR is ' + str(calc_hpr(div_yeild, init_val, end_val)))
 
